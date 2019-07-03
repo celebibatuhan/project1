@@ -22,7 +22,7 @@ namespace daysofweek
 
             using (StreamReader sr = new StreamReader(_csvFilePath))
             {
-                // read header line
+                //dosyadaki ilk satırı okuyor.
                 sr.ReadLine();
 
                 string csvLine;
