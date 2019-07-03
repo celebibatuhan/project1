@@ -16,10 +16,10 @@ namespace daysofweek
 
 
             List<Country> countries = reader.ReadAllCountries();
-            Country trabzon = new Country("Trabzon", "TZX", "Somewhere", 2_000_000);
-            int trabzonIndex = countries.FindIndex(x=>x.Population < 2_000_000);
-            countries.Insert(trabzonIndex, trabzon);
-            countries.RemoveAt(trabzonIndex);
+            Country deneme = new Country("deneme", "DEN", "Somewhere", 2_000_000);
+            int denemeIndex = countries.FindIndex(x=>x.Population < 2_000_000);
+            countries.Insert(denemeIndex, deneme);
+            countries.RemoveAt(denemeIndex);
 
             foreach (Country country in countries)
             {
