@@ -10,7 +10,7 @@ namespace daysofweek
         public string Code { get; }
         public string Region { get; }
         public int Population { get; }
-
+        public int gitdeneme;
         public Country(string name , string code , string region , int population)
         {
             this.Name = name;
